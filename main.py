@@ -31,7 +31,6 @@ first_letter_word_to_find = word_to_find[0].upper()
 print(f"""----------Bienvenue dans Motus et Bouche cousus :)) ----------
 Tu dois trouver un mot de {size_word_to_find} lettres commençant par {first_letter_word_to_find}
 Tu as 6 chances""")
-print(word_to_find)
 while lifes > 0:                                                   #Tant qu'il a des vies, il recommence
     word = input("Veuillez entrer votre mot : ")
     word = word.lower()
